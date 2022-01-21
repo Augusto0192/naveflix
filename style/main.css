@@ -1,0 +1,112 @@
+:root{
+    --verdeNave: #41E0AA;
+    --verdeEscuroNave: #73a898;
+    --sombra: #7db8a4;
+    --fundoNave: #2c1b17;
+    --luzfundo:#b47566;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--fundoNave);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Verdana;
+
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    color:var(--verdeNave);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--verdeEscuroNave);
+    margin-right: 15px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+a:hover{
+    color:var(--sombra) ;
+}
+/*
+Curso em destaque
+*/
+.curso-distaque{
+    font-size: 20px;
+    
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('https://san.navedoconhecimento.rio/imagens/eventos/394e1be1a6a1412ec84f7e949201a614.png');
+
+    height:400px;
+    background-size:cover;
+
+    color: antiquewhite;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.titulo{
+    background-color: rgba(255, 255, 255, 0.2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin-top: 5%;
+    padding: 1%;
+    color: var(--verdeNave);
+    text-align: center;
+    font-weight: bolder;
+    
+}
+.descricao{
+    text-align: justify;
+}
+
+.botao{
+    background-color:rgba(15, 114, 106, 0.4);
+    border: none;
+    color: var(--luzfundo);
+
+    padding: 1%;
+    margin-right: 8%;
+    margin-top: 1%;
+    font-size: 20px;
+
+    cursor: pointer;
+  
+}
+
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+i{
+    margin-left: 5px;
+}
+.curso-distaque .container{
+    height: 100%;
+    width: 50%;
+    padding: 1%;
+}
+
+.box-cursos{
+    height: 300px;
+    width: 300px;
+    display: block;
+
+}
+
+.carrosel-cursos{
+    margin-top: 5%;
+}

@@ -1,0 +1,22 @@
+@media screen and (max-width: 770px) {
+    header .container{
+        display:flex;
+        flex-direction:column;
+    }
+    .curso-distaque .container{
+        height: 100%;
+        width: 90%;
+        padding: 1%;
+    }
+    .botao{
+        margin-top: 5px;
+        width: 150px;
+        height: 60px;
+        margin-bottom: 2%;
+        
+    
+    }
+   
+
+    
+}
